@@ -11,10 +11,11 @@ html {
   body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: aqua;
   }
   
   main {

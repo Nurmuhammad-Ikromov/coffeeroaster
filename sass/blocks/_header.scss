@@ -1,0 +1,54 @@
+
+header{
+    background-image: url("../images/hero-fon.png");
+    background-color: #F3D7B7; 
+    background-blend-mode: overlay;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header__link {
+    text-decoration: none;
+}
+.header__logo {
+    width: 235px;
+    height: 24px;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav__item {
+    margin-left: 40px;
+    
+}
+
+.nav__item-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #333;
+    
+    &:hover{
+        color: #0A775F;
+    }
+    
+    &:active{
+        color: #0A775F;
+        opacity: 0.8;
+    }
+}
+
+.nav__item--active{
+    margin: 0;
+}

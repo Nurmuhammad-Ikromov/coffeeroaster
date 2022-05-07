@@ -1,0 +1,61 @@
+.box__1 {
+    padding: 20px;
+}
+.box__1__in {
+    background-image: url("../images/box_1-fon.png");
+    background-color: #C99B67;
+    background-blend-mode: overlay;
+    padding: 100px 618px 118px 143px;
+
+}
+
+.box__1__in {
+    position: relative;
+    &::before{
+        position: absolute;
+        top: -80px;
+        left: calc(50% + 165px);
+        width: 550px;
+        height: 500px;
+        z-index: 1000;
+        background-image: url("../images/box_1.png");
+        content: "";
+    }
+}
+.box__1__info {
+    width: 639px;
+}
+.box__1__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.box__1__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .box__1__inner::before{
+        background-image: url("../images/box_1@2x.png");
+    }
+  
+} 

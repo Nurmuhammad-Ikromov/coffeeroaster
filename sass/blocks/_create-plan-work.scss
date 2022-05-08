@@ -1,0 +1,97 @@
+
+
+
+.plan {
+    padding:  20px;
+    
+}
+
+.plan__inner {
+    padding: 80px 30px;
+    
+    background-image: url("../images/work-fon.png");
+    background-blend-mode: overlay;
+    background-color: #0A775F;
+}
+.plan__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 0;
+    margin-bottom: 80px;
+    color: #FFFFFF;
+}
+.plan__block {
+    margin-bottom: 16px;
+    background-image: url("../images/work-line.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 187px) calc(50%);
+}
+.plan__span {
+    display: inline-block;
+    margin-right: 389px;
+    padding: 26px;
+    background-color: #fff;
+    border: 4px solid #C99B67;
+}
+.plan__span--active{
+    margin-right: 0;
+}
+.plan__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.plan__item {
+    width: 433px;
+    background-color: #F8F8F2;
+    padding: 140px 28px 40px 20px;
+    margin-right: 20px;
+    
+    &:nth-child(1){
+        background-image: url("../images/01.png");
+        background-repeat: no-repeat;
+        background-size: 51px 38px;
+        background-position: calc(50% + 164px) calc(50% - 138px);
+    }
+    
+    &:nth-child(2){
+        background-image: url("../images/02.png");
+        background-repeat: no-repeat;
+        background-size: 51px 38px;
+        background-position: calc(50% + 164px) calc(50% - 138px);
+    }
+}
+
+
+
+
+.plan__item--active{
+    margin-right: 0;
+    background-image: url("../images/03.png");
+    background-repeat: no-repeat;
+    background-size: 51px 38px;
+    background-position: calc(50% + 164px) calc(50% - 138px);
+    
+}
+.plan__item-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    
+    color: #333333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.plan__item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 0;
+}
+

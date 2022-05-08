@@ -6,15 +6,14 @@
 
     &::before{
         position: absolute;
-        z-index: 100;
         display: block;
         width: 371px;
         height: 371px;
-        background-image: url("../images/col-bgc-1.png");
+        background-image: url("../images/commitment-before.png");
         background-size: contain;
         background-repeat: no-repeat;
         top: calc(50% - 330px);
-        left: calc(50% - 895px);
+        left: calc(50% - 890px);
         content: "";
     }
     
@@ -60,3 +59,17 @@
     color: #333333;
     margin: 0;
 }
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+    .commitment::before{
+        background-image: url("../images/commitment-before@2x.png");
+    }
+} 

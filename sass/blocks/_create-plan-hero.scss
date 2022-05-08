@@ -1,17 +1,12 @@
-
-.hero__inner--about{
+.hero__inner--create{
     padding-bottom: 195px;
 }
-.hero__box--about{
-    background-image:url("../images/about-hero.png");
+.hero__box--create{
+    background-image:url("../images/create-hero.png");
     background-position:  calc(50% + 404px) calc(50% - 17px);
     background-repeat: no-repeat;
     background-size: 710px 596px;
 }
-.info__text--about{
-    width: 372px;
-}
-
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -20,8 +15,9 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-  
-    .hero__box--about{
-        background-image:url("../images/about-hero@2x.png");
+
+    .hero__box--create{
+        background-image:url("../images/create-hero@2x.png");
     }
+  
 } 

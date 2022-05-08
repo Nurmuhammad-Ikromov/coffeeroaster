@@ -54,7 +54,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-    .box__1__inner::before{
+    .box__1__in::before{
         background-image: url("../images/box_1@2x.png");
     }
   
